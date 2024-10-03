@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ahmet Zafer Demir">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Azd Bank</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            font-family: Montserrat, serif, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="genel-div container-fluid mx-auto">
+        <nav class="navbar navbar-expand-sm bg-secondary rounded">
+            <div class="navbar navbar-brand">
+                <h1 class="fst-italic fw-bold text-dark ps-3">AZD BANK</h1>
+            </div>
+
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item p-2"><a href="#" class="nav-link text-light fw-bold">Bireysel</a></li>
+                <li class="nav-item p-2"><a href="#" class="nav-link text-light fw-bold">Kurumsal</a></li>
+                <li class="nav-item p-2"><a href="#" class="nav-link text-light fw-bold">Ticari</a></li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item p-2"><a href="#"
+                        class="nav-link text-secondary rounded fw-bold me-5 p-2 bg-dark">Giriş Yap/Kayıt Ol</a></li>
+            </ul>
+        </nav>
+        <div class="container bg-secondary mt-5 rounded">
+
+            <div class="container col-lg-6 mx-auto">
+                <form class="p-3">
+                    <div class="row mb-2">
+                        <label for="isim" class="fw-bold">Kart Üzerindeki İsim</label>
+                        <input type="text" name="isim" class="form-control">
+                    </div>
+
+                    <div class="row mb-2">
+                        <label for="kartno" class="fw-bold">Kart Numarası</label>
+                        <input type="text" name="kartno" class="form-control" placeholder="####-####-####-####">
+                    </div>
+
+                    <div class="row mb-2">
+                        <div class="col-sm-6 me-auto">
+                            <label for="kartno" class="fw-bold">SKT</label>
+                            <input type="text" name="kartno" class="form-control" placeholder="--/--">
+                        </div>
+
+                        <div class="col-sm-6 ms-auto">
+                            <label for="kartno" class="fw-bold">CVV</label>
+                            <input type="password" name="kartno" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row my-5">
+                        <div class="col-sm-6 me-auto bg-primary p-3 rounded my-auto mb-2" style="height: 60px;">
+                            <b>819368</b>
+                        </div>
+
+                        <div class="col-sm-6 ms-auto">
+                            <label for="gvnlkno" class="fw-bold">Resimdeki Rakamlar</label>
+                            <input type="text" name="gvnlkno" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <button class="btn btn-sm btn-dark m-1 ms-auto w-100" type="submit">Gönder</button>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6">
+                            <button class="btn btn-sm btn-danger m-1 ms-auto w-100" type="reset">İptal</button>
+                        </div>
+
+
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
